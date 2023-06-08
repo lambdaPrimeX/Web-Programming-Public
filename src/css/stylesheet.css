@@ -1,0 +1,338 @@
+.collapsible {
+    background-color: #da070756;
+    color: #000000;
+    cursor: pointer;
+    width: 10%;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 0px 30px 16px #db0c0c23;       
+    text-align: center;
+    display: block;
+    outline: none;
+    font-size: 17px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 17px;
+    color: #c7c1c1b0;
+}
+
+.active, .collapsible:hover {
+    opacity: 0.6;
+}
+  
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #000000;
+    padding-bottom: 8px;
+    border-radius: 15px 15px;
+}
+
+#actorText {
+    font-family: Noto Sans; 
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30%;
+    color: aliceblue;
+}
+
+#special_CHAR {
+    display: block;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 90%;
+    margin-top: 2%;
+}
+
+div.search {
+    display:block;
+    text-align: center;
+    border-color: #272727;
+}
+
+div.addActor {
+    display: block;
+    text-align: center;
+}
+
+#search {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.form {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#searchBox {
+    text-align: center;
+    height: 20px;
+    width: 500px;
+    border-radius: 15px 15px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 2%;
+    background-color: #121212;
+    opacity: 0.6;
+    color:rgba(240, 248, 255, 0.473);    
+    border-style: groove;
+}
+
+#searchBox:hover {
+    opacity: 0.8;
+    box-shadow: 6px 6px 6px 16px #f1ebeb02; 
+}
+
+#act_textBox {
+    text-align: center;
+    height: 20px;
+    width: 600px;
+    border-radius: 15px 15px;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.3;
+    padding: 10px;
+    margin-top: -80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-color: #272727;
+    background-color: #121212;
+    border-color:rgba(240, 248, 255, 0.699);    
+    color:rgba(240, 248, 255, 0.473);    
+}
+
+#act_textBox:hover {
+    opacity: 0.4;
+}
+
+div.movie {
+    margin-top: 0%;
+    display: block;
+    text-align: center;
+}
+
+#Movie1 {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#movieTitle_box {
+    height: 20px;
+    width: 300px;
+    border-radius: 9px 9px;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.3;
+    padding: 10px;
+    margin-top: -1%;
+    border-color: #272727;
+    background-color: #121212;
+    border-color:rgba(240, 248, 255, 0.473);    
+    color:rgba(240, 248, 255, 0.473);  
+}
+
+#movieGenre_box {
+    text-align: left;
+    height: 20px;
+    width: 120px;
+    border-radius: 9px 9px;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.3;
+    padding: 10px;
+    margin-top: -80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #272727;
+    background-color: #121212;
+    border-color:rgba(240, 248, 255, 0.473);    
+    color:rgba(240, 248, 255, 0.473);  
+}
+
+#moviePrice_box {
+    height: 20px;
+    width: 60px;
+    border-radius: 9px 9px;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.3;
+    padding: 10px;
+    border-color: #272727;
+    background-color: #121212;
+    border-color:rgba(240, 248, 255, 0.473);    
+    color:rgba(240, 248, 255, 0.473);  
+}
+
+#movieYear_box {
+    height: 20px;
+    width: 60px;
+    border-radius: 9px 9px;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.3;
+    padding: 10px;
+    border-color: #272727;
+    background-color: #121212;
+    border-color:rgba(240, 248, 255, 0.473);    
+    color:rgba(240, 248, 255, 0.473);  
+}
+
+#movieActor_box {
+    height: 45px;
+    border-radius: 12px 12px;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.3;
+    padding: 10px;
+    margin-top: -80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #272727;
+    background-color: #121212;
+    border-color:rgba(240, 248, 255, 0.473);    
+    color:rgba(240, 248, 255, 0.473);  
+}
+
+#movieYear_box {
+    height: 45px;
+    width: 8.1%;
+    border-radius: 12px 12px;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.3;
+    padding: 10px;
+    margin-top: -80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #272727;
+    background-color: #121212;
+    border-color:rgba(240, 248, 255, 0.473);    
+    color:rgba(240, 248, 255, 0.473);  
+}
+
+#movie_textBox2:hover {
+    opacity: 0.4;
+}
+
+#movie_textBox2 {
+    height: 20px;
+    width: 600px;
+    border-radius: 15px 15px;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.3;
+    padding: 10px;
+}
+
+#movieTitle:hover {
+    opacity: 0.4;
+}
+
+#select_actor_id {
+    height: 20px
+}
+
+select option {
+    font-size: 22px;
+}
+
+#submit {
+    border-radius: 15px 15px;
+    height: 25px;
+    border-color: #272727;
+    border-style:hidden;
+    background-color: #121212;
+    border-color: #272727;
+    color:rgba(240, 248, 255, 0.473);
+}
+
+#submit:hover {
+    background-color: #121212;
+    color:rgba(240, 248, 255, 0.699);
+}
+
+#dropdown {
+    height: 200%
+}
+
+div.logo {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logoSize {
+    margin-top: 18%;
+    width: 25%;
+}
+
+#Title {
+    display: inline;
+    text-align: left;
+    margin-top: 5%; 
+    margin-left: 28%;
+    font-family: Arial;
+}
+
+#Actor {
+    display: inline;
+    text-align: left;
+    margin-left: 5%;
+    font-family: Arial;
+}
+
+#Genre {
+    display: inline;
+    text-align: left;
+    margin-left: 10.5%;
+    font-family: Arial;
+}
+
+#Price {
+    display: inline;
+    /*text-align: left;*/
+    margin-left: 4.5%;
+    font-family: Arial;
+}
+
+#Year {
+    display: inline;
+    /*text-align: left;*/
+    margin-left: 2.5%;
+    font-family: Arial;
+}
+
+#message_actor {
+    text-align: center;
+    margin-top: 6%;
+}
+
+body {
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    font-family: Noto Sans; 
+}
+
+successful_andOther {
+    font-family: Noto Sans; 
+}
